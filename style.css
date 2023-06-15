@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Slab:wght@400;500;600;700;800&display=swap');
+
+:root {
+    font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #e3e3e3;
+    color: #222;
+    font-family:"roboto slab",serif;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    text-align: center;
+    max-width: 600px;
+    /* width: 100%; */
+}
+
+.popis {
+    color: #585858;
+}
+
+h1 {
+    color: #151515;
+}
+
+.dialog {
+    font-family: monospace;
+    letter-spacing: -1px;
+    text-align: start;
+
+    display: grid;
+    grid-template-columns: 1fr 100%;
+    width: 100%;
+}
+
+.wrap {
+    margin-bottom: 1rem;
+    outline: #888 2px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.first .end, .first.info {
+    color: rgb(139, 0, 0);
+}
+
+.last .end, .last.info {
+    color: rgb(0, 122, 16);
+}
+
+.info {
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+.link {
+    all: unset;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(5, 5, 131);
+    font-size: 1.2rem;
+}
